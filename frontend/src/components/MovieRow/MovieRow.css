@@ -1,0 +1,39 @@
+.movie-scroll-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.movie-item {
+    min-width: 220px;
+    max-width: 220px;
+    flex: 0 0 220px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.row-nav-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.row-nav-btn:hover {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .movie-item {
+        min-width: 160px;
+        max-width: 160px;
+        flex: 0 0 160px;
+    }
+}
