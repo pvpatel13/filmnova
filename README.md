@@ -13,43 +13,31 @@ FilmNova is a modern, full-stack web application designed for Gen-Z users and ci
 ### Prerequisites
 - Node.js installed
 - MongoDB running locally (default: `mongodb://localhost:27017/filmnova`)
-- OMDb API Key (Get one at [omdbapi.com](http://www.omdbapi.com/apikey.aspx))
+- OMDb API Key
 
 ### Installation
 
-1. **Clone the project** (or navigate to the directory)
+#### Backend Setup
+cd backend  
+npm install  
 
-2. **Backend Setup**
-   ```bash
-   cd backend
-   npm install
-   ```
-   - Update `.env` with your `OMDB_API_KEY`.
-
-3. **Frontend Setup**
-   ```bash
-   cd frontend
-   npm install
-   ```
+#### Frontend Setup
+cd frontend  
+npm install  
 
 ### Running the Project
 
-1. **Start Backend** (from /backend folder)
-   ```bash
-   npm run dev
-   ```
-   *Note: I've added a "start" script in package.json to run with nodemon.*
+#### Start Backend
+npm run dev  
 
-2. **Start Frontend** (from /frontend folder)
-   ```bash
-   npm start
-   ```
+#### Start Frontend
+npm start  
 
-The application should now be running at `http://localhost:3000`.
+App runs on: http://localhost:3000
 
 ## Features
-- **Cinematic Hero Section**: Stunning reveal animation using GSAP.
-- **Movie Discovery**: Search and explore thousands of movies via OMDb.
-- **Rating & Reviews**: Share your thoughts and see what the community says.
-- **Glassmorphism UI**: Premium visual experience with modern aesthetics.
-- **Personalized Watchlist**: Save movies to your profile for later.
+- Cinematic Hero Section (GSAP)
+- Movie Discovery via API
+- Rating & Reviews
+- Glassmorphism UI
+- Watchlist Feature
