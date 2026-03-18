@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
-import { FaBookmark, FaSignOutAlt, FaUser, FaStar, FaCog, FaFilm } from 'react-icons/fa';
+import { FaBookmark, FaSignOutAlt, FaUser, FaFilm } from 'react-icons/fa';
 import './Navbar.css';
 
 const CustomNavbar = () => {

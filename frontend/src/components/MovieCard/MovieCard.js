@@ -2,7 +2,7 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FaStar } from 'react-icons/fa';
-import { hoverScale, hoverScaleExit } from '../../animations/gsapAnimations';
+// import { hoverScale, hoverScaleExit } from '../../animations/gsapAnimations';
 
 const MovieCard = ({ movie }) => {
   return (

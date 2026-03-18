@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import { Card, Button, Image } from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaExternalLinkAlt } from 'react-icons/fa';
 import { gsap } from 'gsap';
