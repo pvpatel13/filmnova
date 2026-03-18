@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-const BACKEND_URL = `${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/`;
+const BACKEND_URL = `${process.env.REACT_APP_API_URL}/api/`;
 
 const omdbApi = {
   get: (url, config) => {
-    // Keep backward compatibility for existing calls
+
     return axios.get(`${BACKEND_URL}movies/${url}`, config);
   },
   getNowPlaying: () => axios.get(`${BACKEND_URL}movies/now_playing`),
