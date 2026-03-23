@@ -262,6 +262,15 @@
     }
 }
 
+.hero-section {
+    min-height: 80vh;
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 @media (max-width: 576px) {
     .filmnova-navbar {
         padding: 0.6rem 1rem !important;
