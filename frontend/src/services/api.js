@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Get the API URL from environment variables, fallback to localhost if not found
 // In Render/Vercel, make sure REACT_APP_API_URL is set to your backend URL (e.g. https://filmnova.onrender.com)
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_URL = process.env.REACT_APP_API_URL || 'https://filmnova.onrender.com';
 const BACKEND_URL = API_URL.endsWith('/') ? `${API_URL}api/` : `${API_URL}/api/`;
 
 const backendApi = axios.create({
