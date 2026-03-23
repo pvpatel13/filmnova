@@ -26,9 +26,9 @@ function App() {
         </Routes>
       </main>
       <Analytics />
-
     </Router>
   );
 }
+
 
 export default App;

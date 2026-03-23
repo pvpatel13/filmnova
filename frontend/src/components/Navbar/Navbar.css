@@ -233,7 +233,7 @@
     }
 
     .nav-link-custom {
-        margin: 10px 0;
+        margin: 8px 0;
         font-size: 1.2rem;
     }
 
@@ -249,13 +249,16 @@
     .auth-buttons {
         flex-direction: column;
         width: 100%;
-        margin-top: 15px;
+        margin-top: 2px;
+        gap: 8px;
     }
 
     .auth-buttons button,
     .auth-buttons a {
         width: 100%;
+        display: flex;
         justify-content: center;
+        text-align: center;
     }
 }
 
