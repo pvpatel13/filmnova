@@ -256,7 +256,7 @@
     .auth-buttons button,
     .auth-buttons a {
         width: 100%;
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         text-align: center;
     }
