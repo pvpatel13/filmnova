@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
 import Movies from './pages/Movies/Movies';
 import MovieDetails from './pages/MovieDetails/MovieDetails';
+import { Analytics } from "@vercel/analytics/react"
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import Profile from './pages/Profile/Profile';
@@ -24,6 +25,8 @@ function App() {
           <Route path="/watchlist" element={<Watchlist />} />
         </Routes>
       </main>
+      <Analytics />
+
     </Router>
   );
 }
