@@ -9,7 +9,6 @@ var connectDB = function() {
     })
     .catch(function(error) {
       console.error('Error: ' + error.message);
-      // In a real production app, you might want more robust error handling
       process.exit(1);
     });
 };
